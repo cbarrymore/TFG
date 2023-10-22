@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Ball', 'Player', 'person']
+
+roboflow:
+  workspace: tfg-zpfio
+  project: tfg-tuvio
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/tfg-zpfio/tfg-tuvio/dataset/1
